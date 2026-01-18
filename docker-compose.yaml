@@ -1,6 +1,6 @@
 services:
-  api-siwapan:
+  api-thanaphat:
     build: .
     ports:
-      - "8001:8000"
+      - "8600:8000"
     restart: always
